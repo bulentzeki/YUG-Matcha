@@ -1750,7 +1750,7 @@ footer p {
   }
 }
 
-/* Contact Us Page Start */
+/* İLETİŞİM Us Page Start */
 
 .page-banner {
   background-image: url("./../images/pagetitle-contact.jpg");
@@ -2393,7 +2393,8 @@ footer p {
 /* menu page start */
 
 .menu-page .page-banner{
-  background-image: url('./../images/pagetitle-menu.jpg');
+  background-image: url('./../images/matcha-img-1.jpg');
+  background-position: bottom;
 }
 
 /* chef choice start */

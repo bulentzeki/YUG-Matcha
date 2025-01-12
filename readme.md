@@ -1,12 +1,12 @@
-# Restoran - Restaurant Website Template - Restaurant Bootstrap 5 Template
+# YUG Matcha Bar - Restaurant Website Template - Restaurant Bootstrap 5 Template
 
-![Restoran](https://codewithshabbir.github.io/Restoran/assets/images/template-screenshot.png)
+![YUG Matcha Bar](https://codewithshabbir.github.io/YUG Matcha Bar/assets/images/template-screenshot.png)
 
-Welcome to **Restoran**, a modern and responsive restaurant website template designed and developed using a combination of front-end languages, libraries, and frameworks. This template is perfect for creating professional restaurant websites that offer a sleek and user-friendly experience.
+Welcome to **YUG Matcha Bar**, a modern and responsive restaurant website template designed and developed using a combination of front-end languages, libraries, and frameworks. This template is perfect for creating professional restaurant websites that offer a sleek and user-friendly experience.
 
 ## 🚀 Live Demo
 
-Check out the live demo of the website here: [Restoran Live Demo with Fonts](https://codewithshabbir-restoran.netlify.app/)
+Check out the live demo of the website here: [YUG Matcha Bar Live Demo with Fonts](https://codewithshabbir-YUG Matcha Bar.netlify.app/)
 
 *Note: The fonts are correctly loaded in the Netlify demo link. In the GitHub version, the fonts may not load properly due to hosting constraints.*
 
@@ -39,7 +39,7 @@ This template is designed to provide a complete solution for restaurant websites
 ## 📁 Folder Structure
 
 ```plaintext
-Restoran/
+YUG Matcha Bar/
 ├── assets/
 │   ├── css/
 │   │   └── style.css        # Main CSS file
@@ -56,15 +56,15 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/codewithshabbir/Restoran.git
+   git clone https://github.com/codewithshabbir/YUG Matcha Bar.git
    ```
 2. **Navigate to the project directory**:
    ```bash
-   cd Restoran
+   cd YUG Matcha Bar
    ```
 3. **Open `index.html` in your preferred web browser** to view the template.
 
-*Note: Fonts may not load properly when running the project locally or through GitHub Pages. For a fully functional demo with fonts, please visit the [Netlify link](https://codewithshabbir-restoran.netlify.app/).*
+*Note: Fonts may not load properly when running the project locally or through GitHub Pages. For a fully functional demo with fonts, please visit the [Netlify link](https://codewithshabbir-YUG Matcha Bar.netlify.app/).*
 
 ## 📸 Image Credits
 
@@ -91,7 +91,7 @@ This project is open-source and available under the [MIT License](LICENSE).
   - [Instagram](https://www.instagram.com/codewithshabbir)
   - [Facebook](https://www.facebook.com/codewithshabbir)
 
-## 📞 Contact
+## 📞 İLETİŞİM
 
 For any inquiries or feedback, feel free to reach out at:
 - **Email**: [muhammadshabbir4589@gmail.com](mailto:muhammadshabbir4589@gmail.com)
