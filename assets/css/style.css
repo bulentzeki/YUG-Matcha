@@ -217,8 +217,8 @@
 
 /* Color Variables */
 :root {
-  --primary-color: #e5612f; /* Example Primary Color */
-  --secondary-color: #6c757d; /* Example Secondary Color */
+  --primary-color: #90c894; /* Example Primary Color */
+  --secondary-color: #da8bba; /* Example Secondary Color */
   --background-color: #eef0f1; /* Example Background Color */
   --text-color: #212529; /* Example Text Color */
   --heading-color: #343a40; /* Example Heading Color */
@@ -302,6 +302,12 @@ button,
   color: var(--primary-color);
 }
 
+.logo-img {
+  height: 48px;
+  width: auto;
+  margin-right: 16px;
+}
+
 /* Scrollbar Styles */
 body::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
@@ -347,10 +353,25 @@ body::-webkit-scrollbar-thumb {
   animation: rotate 2000ms infinite;
 }
 
+.logo-loader {
+  width: auto;
+  height: 150px;
+  margin-bottom: 16px;
+}
+
+.yug-primary-color {
+  color: #90c894 !important;
+}
+.yug-secondary-color {
+  color: #da8bba !important;
+}
+
+
 .loader-ellipses{
   display: flex;
   width: 100px;
   justify-content: space-between;
+  margin-bottom: 120px;
 }
 
 .loader-ellipses span{
@@ -457,8 +478,7 @@ header.scrolled {
 }
 
 .icons > a > i {
-  font-size: 18px;
-  color: var(--text-color-white);
+  font-size: 32px;
 }
 
 /* Search bar */
@@ -742,6 +762,12 @@ header.scrolled {
 .mobile-nav-logo > .logo > a > h1,
 .mobile-nav-logo > .logo > a > i {
   font-size: 24px;
+  padding-top: 4px
+}
+
+.mobile-nav-logo .logo-img {
+  height: 36px;
+  margin-right: 10px;
 }
 
 /* Mobile Header End*/
@@ -1130,13 +1156,46 @@ header.scrolled {
   vertical-align: super;
   font-size: 18px;
 }
+.deserts-list.row {
+  justify-content: center;
+}
+
+.extras-title {
+  position: absolute;
+  top: -20px;
+}
+
+.extras-box.row {
+  justify-content: center;
+  margin: 0 25px;
+}
+
+.extras-box.row .col-lg-6 {
+  border: 2px solid var(--primary-color);
+  padding: 25px;
+}
+.coffee-section .extras-box.row .col-lg-6 {
+  border: 2px solid var(--text-color-white);
+}
 
 .lunch-time.coffee-section {
   background-color: #91c795;
   color: #fff;
+  margin-top: 0 !important;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.lunch-time.coffee-section .item-wrapper .item-right .item-price,
+.lunch-time.coffee-section .item-wrapper .item-right .price-symbol {
+  color: var(--text-color-white);
 }
 
 .lunch-time.coffee-section .item-wrapper .item-left h5 {
+  color: var(--text-color);
+}
+
+.lunch-time.coffee-section {
+  background-color: var(--primary-color);
   color: #fff;
 }
 
@@ -1828,7 +1887,9 @@ footer p {
   border: 1px solid white;
   border-radius: 50%;
 }
-
+.contact-page .contact-us .contact-info .contact-info-box .fa-instagram {
+  font-size: 24px;
+}
 .contact-page .contact-us form {
   border: 4px solid #f6f6f6;
   padding: 40px 50px;
@@ -1949,6 +2010,15 @@ footer p {
 .about-page .reservation-form form {
   border: 4px solid #dfdfdf;
   padding: 40px 50px;
+}
+
+.menu-page .lunch-time.coffee-section .menu-line span {
+  background-color: var(--text-color-white);
+}
+
+.menu-page .lunch-time.coffee-section .menu-line span::before,
+.menu-page .lunch-time.coffee-section .menu-line span::after {
+  background-color: var(--text-color-white);
 }
 
 .reservation-page .reservation-form .reservation-line span,
