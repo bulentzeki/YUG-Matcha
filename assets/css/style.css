@@ -928,11 +928,19 @@ header.scrolled {
 
 /* about us start */
 .about-us {
-  background-image: url("./../images/about-bg.jpg");
   background-position: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  background-color: gray;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.inline-logo {
+  height: 40px;
+  width: auto;
+  margin-right: 12px;
 }
 
 .about-us .about-content .section-title,
@@ -1827,13 +1835,13 @@ footer p {
 /* İLETİŞİM Us Page Start */
 
 .page-banner {
-  background-image: url("./../images/pagetitle-contact.jpg");
+  background-image: url('./../images/matcha-img-1.jpg');
+  background-position: bottom;
   position: relative;
   /* background-position: center center; */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-position: center;
   width: 100%;
   height: 500px;
 }
