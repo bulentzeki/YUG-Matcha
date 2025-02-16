@@ -1161,8 +1161,14 @@ header.scrolled {
 }
 
 .extras-title {
-  position: absolute;
-  top: -20px;
+  position: relative;
+  top: -40px;
+  background-color: white;
+  width: fit-content;
+  font-family: "Nunito", sans-serif;
+  font-size: large;
+  font-weight: bold;
+  padding: 0 15px;
 }
 
 .extras-box.row {
@@ -1895,6 +1901,14 @@ footer p {
   padding: 40px 50px;
 }
 
+.contact-us {
+  padding-top: 80px;
+}
+
+.contact-info {
+  padding-top: 15px;
+}
+
 .contact-page .contact-us .input-group {
   background-color: #f6f6f6;
   margin-bottom: 30px;
@@ -1984,11 +1998,18 @@ footer p {
   border-radius: 50%;
   left: 100px;
 }
+.footer-logo {
+  height: 48px;
+  width: auto;
+}
 
 @media screen and (max-width: 768px) {
   .menu-page .page-banner{
     background-attachment: local;
     margin-top: 60px;
+  }
+  .extras-box.row {
+    margin: 0 10px;
   }
 
   .page-banner {
@@ -1996,8 +2017,22 @@ footer p {
     padding-top: 60px;
   }
 
+  .extras-box.row .col-lg-6 {
+    padding: 15px;
+  }
   .contact-page .contact-us form {
     padding: 40px 20px;
+  }
+
+  .extras-title {
+    top: -30px;
+  }
+
+  .contact-us {
+    padding-top: 50px;
+  }
+  .contact-info {
+    padding-top: 0;
   }
 }
 
